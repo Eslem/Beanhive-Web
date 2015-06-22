@@ -4,7 +4,6 @@
   padding: 30px;
 }
 body, html {
-  height: 100%;
   width: 100%;
   margin: 0;
   padding: 0;
@@ -16,7 +15,22 @@ body, html {
 }
 header {
   background: url(es/upperhexagon.png) center bottom;
-  height: 7%;
+  height: 70px;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+body {
+    margin: 0 0 70px; /* bottom = footer height */
+}
+footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 70px;
+    width: 100%;
 }
 
 *{
@@ -65,16 +79,26 @@ footer {
   margin-top: -70px;
   position: relative;
 }
-.order img {
-  height: 100%;
-  width: 100%;
+.order .orderText {
+  width: 40%;
+    position: absolute;
+    top: 50%;
+    left:30%;
 }
 .order .text {
   position: absolute;
   color: #3c9cbb;
-  top: 47%;
-  left: 34%;
+  top: 50%;
+  left: 35%;
+    height: 59px;
+    width: 117px;
+    color: #3c9cbb;
+    font: 79.8px / 179.788px Phosphate;
   text-align: center;
+  font-size:1.4em;
+    background: url(es/orderOnlineText.png);
+    
+    
 }
 .order .text h2 {
   margin: 0;
@@ -120,7 +144,7 @@ hr.light {
 .categories {
   text-align: center;
   padding: 0 15%;
-  margin-top: -7%;
+  margin-top: -3%;
 }
 .categories div {
   position: relative;
@@ -129,7 +153,7 @@ hr.light {
 img.back {
   z-index: 1;
   top: 0;
-  width: 80%;
+  width: 90%;
   left: 0;
 }
 img.text {
@@ -155,16 +179,9 @@ img{
   max-height:100%;
   max-width:100%;
 }
-@media screen and (max-width: 480px) {
-  .center {
-    position: relative;
-  }
-  .order {
-    font-size: 0.4em;
-    margin-top: -20px;
-    margin-left: 33.33% !important;
-  }
-  .social {
-    margin-top: 0px;
-  }
+
+.arrow{
+     margin-top: 180px;   
+   width: 98px;
+    height: 97px;
 }

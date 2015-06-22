@@ -1,0 +1,22 @@
+@media screen and (max-width: 480px) {
+  .center {
+    position: relative;
+  }
+  .order {
+    font-size: 0.4em;
+    margin-top: -250px;
+    margin-left: 33.33% !important;
+  }
+  .social {
+    margin-top: 0px;
+  }
+    .logo{
+        margin-top: 100px;
+    }
+    
+    .arrow{
+         display: none;   
+    }
+        
+}
+

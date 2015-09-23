@@ -1,0 +1,26 @@
+.social {
+  float: left;
+    margin:0;
+    padding: 0;
+}
+.social li {
+  margin: 0px;
+  text-align: left;
+  padding: 0px;
+}
+
+.facebook{
+    margin-top: -40% !important;
+}
+
+.social2{
+    margin-left:-3.5% !important;
+}
+
+.twitter{
+    margin-top: 55% !important;
+}
+
+.gp{
+    margin-top: -30% !important;
+}

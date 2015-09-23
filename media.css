@@ -20,3 +20,10 @@
         
 }
 
+@media only screen and (max-width:1800px) {
+
+.social2{
+    margin-left:-4.5% !important;
+}
+
+}

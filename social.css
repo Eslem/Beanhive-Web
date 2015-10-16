@@ -24,3 +24,8 @@
 .gp{
     margin-top: -30% !important;
 }
+
+.location-wrapper{
+  padding-right: 0 !important;
+  margin-right: -15px; 
+}

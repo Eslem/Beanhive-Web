@@ -102,6 +102,29 @@
 
 }
 
+@media screen and (min-width: 2880px){
+    .facebook{
+        margin-top: -19% !important;
+    }
+    .social2 {
+        margin-left: -13.05% !important;
+    }
+    .gp {
+        margin-top: -14% !important;
+        margin-left: 2% !important;
+    }
+    .twitter {
+        margin-top: 22% !important;
+    }
+    .categories {
+        margin-top: 10%;
+    }
+    .order .orderText {
+        left: 17%;
+        top: 45%;
+    }
+}
+
 
 @media screen and (max-width:1440px) {
     .social2 {

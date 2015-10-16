@@ -1,44 +1,37 @@
-/*@media screen and (max-width: 480px) {
-  .center {
-    position: relative;
-  }
-  .order {
-    font-size: 0.4em;
-    margin-top: -250px;
-    margin-left: 33.33% !important;
-  }
-  .social {
-    margin-top: 0px;
-  }
-    .logo{
-        margin-top: 100px;
-    }
-    
-    .arrow{
-         display: none;   
-    }
-        
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) { 
+
+   .social2 {
+    margin-left: -9.5% !important;
+}
+.facebook{
+    margin-top: -27%;
 }
 
-@media only screen and (max-width:1800px) {
-
-.social2{
-    margin-left:-4.5% !important;
+.twitter {
+    margin-top: 38% !important;
 }
 
 }
-*/
+
 
 @media screen and (min-width: 1440px){
     .social2 {
-        margin-left: -9.5% !important;
+        margin-left: -36.5% !important;
     }
     .facebook{
         margin-top: -32%;
     }
 
     .twitter {
-        margin-top: 38% !important;
+        margin-top: 28% !important;
+    }
+
+    .gp {
+        margin-top: -21% !important;
     }
 }
 
@@ -126,15 +119,15 @@
 }
 
 
+
+
 @media screen and (max-width:1440px) {
     .social2 {
         margin-left: -9.5% !important;
     }
     .twitter {
         margin-top: 40% !important;
-    }
-
-    
+    }    
 }
 
 
@@ -193,3 +186,4 @@
         margin-top: -13% !important;
     }
 }
+

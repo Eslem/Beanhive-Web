@@ -185,6 +185,7 @@ img.text {
     position: absolute;
     top: 10%;
     width: 100%;
+    z-index: 99;
 }
 
 .slider img {
@@ -202,3 +203,26 @@ img {
     width: 98px;
     height: 97px;
 }
+
+a, a:hover, a:visited{
+    text-decoration: none;
+    color:inherit;
+}
+
+.over{
+    z-index:100;
+}
+
+.over2{
+    z-index:110;
+}
+
+
+.animated{
+    -webkit-transition: all .8s; 
+    transition: all .8s;
+    opacity: 1;
+}
+
+.grow { transition: all .2s ease-in-out; }
+.grow:hover { transform: scale(1.1); }

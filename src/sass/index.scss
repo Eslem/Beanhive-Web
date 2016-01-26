@@ -1,0 +1,41 @@
+@import './../bower_components/bootstrap/scss/bootstrap.scss';
+
+body, html {
+  height: 100%;
+  max-height: 100%;
+  width: 100%;
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+  background: url(../assets/images/background.png) no-repeat center center fixed;
+}
+
+.header-img {
+  img{
+    padding: 0;
+    width: 100%;
+  }
+}
+
+.footer {
+  img {
+    padding: 0;
+    width: 100%;
+  }
+}
+
+.main-logo {
+  img {
+    position: absolute;
+    margin-top: -15px;
+    padding-left: 5px;
+    width: 100%;
+  }
+}
+
+.order {
+  img {
+    position: absolute;
+    margin-top: -85px;
+  }
+}

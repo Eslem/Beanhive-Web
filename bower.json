@@ -1,0 +1,22 @@
+{
+  "name": "beanhive",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Luans <luansnain@gmail.com>"
+  ],
+  "license": "ISC",
+  "moduleType": [],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "v4.0.0-alpha.2"
+  }
+}

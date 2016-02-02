@@ -4568,19 +4568,23 @@ body, html {
   background: url(../assets/images/background.png) no-repeat center center fixed; }
 
 .header-img img {
-  padding: 0;
-  width: 100%; }
-
-.footer img {
-  padding: 0;
-  width: 100%; }
+  padding: 0; }
 
 .main-logo img {
   position: absolute;
-  margin-top: -15px;
-  padding-left: 5px;
+  margin-top: -1rem;
   width: 100%; }
 
 .order img {
   position: absolute;
-  margin-top: -85px; }
+  margin-top: -3rem;
+  padding-left: 2rem; }
+
+.center-img {
+  width: 29rem; }
+
+.arrow {
+  padding-top: 8rem; }
+
+.social img {
+  position: absolute; }

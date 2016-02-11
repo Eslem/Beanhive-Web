@@ -4570,21 +4570,58 @@ body, html {
 .header-img img {
   padding: 0; }
 
-.main-logo img {
-  position: absolute;
-  margin-top: -1rem;
-  width: 100%; }
+.main-logo {
+  width: 30%; }
+  .main-logo img {
+    position: absolute;
+    margin-top: -1rem;
+    margin-left: -1rem;
+    width: 100%; }
 
 .order img {
   position: absolute;
-  margin-top: -3rem;
-  padding-left: 2rem; }
+  margin-top: -3.5rem;
+  padding-left: 1.8rem; }
 
 .center-img {
-  width: 29rem; }
+  width: 25rem; }
 
 .arrow {
   padding-top: 8rem; }
 
 .social img {
   position: absolute; }
+
+.social-margin {
+  margin-left: -2rem; }
+
+.three-images {
+  padding-top: 3rem; }
+
+.nain-margin {
+  margin-left: 22%; }
+
+.three-images-margin {
+  margin-left: 18%; }
+  .three-images-margin img {
+    position: absolute; }
+
+.instagram {
+  margin-top: -5rem; }
+
+.facebook {
+  margin-top: -1.4rem; }
+
+.twitter {
+  margin-top: -3rem;
+  margin-left: 2.8rem; }
+
+.google {
+  margin-top: 0.4rem;
+  margin-left: 2.8rem; }
+
+.bakery {
+  margin-left: 14rem; }
+
+.food {
+  margin-left: 28rem; }
